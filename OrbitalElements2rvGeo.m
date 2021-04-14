@@ -2,7 +2,7 @@ function [ R, V ] = OrbitalElements2rvGeo( h, muo, e, i, Omega, w, theta )
 % TELETIN ALEXANDRA-IONELA 
 % GRUPA MAE1
 % 15.04.2021
-%% INPUTS:
+% INPUTS:
 % h              : vectorul momentului unghiular in km^2/s
 % muo        :  Constanta Gravitationala
 % e              : excentricitatea
@@ -10,7 +10,7 @@ function [ R, V ] = OrbitalElements2rvGeo( h, muo, e, i, Omega, w, theta )
 % Omega    : longitudinea nodului ascendent
 % w              : argumentul periheliului
 % theta        : anomalia adevarata
-%% OUTPUTS:
+% OUTPUTS:
 % r    : vectorul de pozitie
 % v    : vecctorul viteza in km/s
 % ---------------------------------------------------------------------------------------------------------------------------------------------------------

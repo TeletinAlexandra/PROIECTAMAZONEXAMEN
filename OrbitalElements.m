@@ -1,10 +1,10 @@
 function [ h, mag_h, i, omega, e, mag_e, w, theta ] = OrbitalElements ( r,v,muo )
 
-%% INPUTS:
+% INPUTS:
 % r        :  vectorul de pozitie
 % v       :  vectorul viteza
 % muo :  parametrul gravitational
-%% OUTPUTS:
+% OUTPUTS:
 % h              : vectorul momentului unghiular in km^2/s
 % muo        :  Constanta Gravitationala
 % e              : excentricitatea
